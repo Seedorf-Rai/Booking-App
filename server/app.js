@@ -12,3 +12,7 @@ app.get('/', (req, res) => {
         msg: "You are in home directory"
     })
 })
+
+app.get('/login', (req, res) => {
+    res.send({ msg : "This is login Page"});
+})
